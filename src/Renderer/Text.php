@@ -12,7 +12,7 @@ namespace Dompdf\Renderer;
 use Dompdf\Adapter\CPDF;
 use Dompdf\Frame;
 
-include DOMPDF_DIR . "/I18N/Arabic/Glyphs.php";
+include __DIR__."/I18N/Arabic/Glyphs.php";
 use I18N_Arabic_Glyphs;
 
 /**
